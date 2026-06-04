@@ -1,16 +1,7 @@
-# React + Vite
+Create a basic website with 3 pages - Home, About Us & Contact pages. Use router to navigate between them. Put some content in Home & About Us pages.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In the contact page, have a form with fields: 1) Name (single line textbox) 2) Email (single line textbox) 3) Matter (Multiline textbox) and a submit button. Upon clicking submit button, it should create a JSON with the typed-in values into form fields. Then, the JSON should be shown in a popup. There should be a dismiss button in the popup; upon clicking the dismiss button, the popup should get closed. 
 
-Currently, two official plugins are available:
+Pages all should have navigation bar that is responsive. Use bootstrap to create such a navigation bar. Install appropriate bootstrap package from node and use it. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Popup may be created using bootstrap.
